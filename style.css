@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: linear-gradient(to bottom, #1e3c72, #2a5298);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.saldo-card {
+  background: #ffffff22;
+  padding: 15px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  backdrop-filter: blur(6px);
+}
+
+.saldo-card p {
+  font-size: 14px;
+}
+
+.saldo-card h2 {
+  font-size: 28px;
+  color: #00ffae;
+  margin-top: 5px;
+}
+
+.wheel-container {
+  position: relative;
+  margin: 20px 0;
+}
+
+#wheel {
+  border: 8px solid #fff;
+  border-radius: 50%;
+  background: #444;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
+
+#spinBtn {
+  margin-top: 15px;
+  padding: 12px 20px;
+  background: #00bcd4;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#spinBtn:hover {
+  background: #0097a7;
+}
+
+.withdraw-section {
+  margin-top: 30px;
+  background: #ffffff22;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.withdraw-section h3 {
+  margin-bottom: 15px;
+}
+
+.withdraw-section select,
+.withdraw-section input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  font-size: 16px;
+}
+
+#tarikBtn {
+  width: 100%;
+  padding: 12px;
+  background: #4caf50;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#tarikBtn:hover {
+  background: #388e3c;
+}
+
+#withdrawMsg {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #ffd700;
+}
+
+footer {
+  margin-top: 20px;
+  font-size: 12px;
+  opacity: 0.8;
+}

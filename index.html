@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Putar Saldo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1 class="logo">🎡 Game Putar Saldo</h1>
+      <div class="saldo-card">
+        <p>Saldo Anda</p>
+        <h2 id="saldo">Rp0</h2>
+      </div>
+    </header>
+
+    <!-- Roda Putar -->
+    <div class="wheel-container">
+      <canvas id="wheel" width="300" height="300"></canvas>
+      <button id="spinBtn">Putar</button>
+    </div>
+
+    <!-- Menu Penarikan -->
+    <div class="withdraw-section">
+      <h3>Penarikan Saldo</h3>
+      <select id="metode">
+        <option value="DANA">DANA</option>
+        <option value="GOPAY">GoPay</option>
+      </select>
+      <input type="number" id="nomor" placeholder="Masukkan Nomor HP">
+      <button id="tarikBtn">Tarik Saldo</button>
+      <p id="withdrawMsg"></p>
+    </div>
+
+    <footer>
+      <p></p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
